@@ -13,6 +13,8 @@
 		BCF321D128D046CB00CAD377 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF321CF28D046CB00CAD377 /* Main.storyboard */; };
 		BCF321D328D046CC00CAD377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCF321D228D046CC00CAD377 /* Assets.xcassets */; };
 		BCF321D628D046CC00CAD377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF321D428D046CC00CAD377 /* LaunchScreen.storyboard */; };
+		BCF321DF28D0476700CAD377 /* StrangeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF321DE28D0476700CAD377 /* StrangeCalculator.swift */; };
+		BCF321E128D0477300CAD377 /* LottoMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF321E028D0477300CAD377 /* LottoMachine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BCF321D228D046CC00CAD377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCF321D528D046CC00CAD377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCF321D728D046CC00CAD377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF321DE28D0476700CAD377 /* StrangeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrangeCalculator.swift; sourceTree = "<group>"; };
+		BCF321E028D0477300CAD377 /* LottoMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoMachine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		BCF321C828D046CB00CAD377 /* UnitTestPractice */ = {
 			isa = PBXGroup;
 			children = (
+				BCF321DD28D0475000CAD377 /* Sample */,
 				BCF321C928D046CB00CAD377 /* AppDelegate.swift */,
 				BCF321CB28D046CB00CAD377 /* SceneDelegate.swift */,
 				BCF321CD28D046CB00CAD377 /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				BCF321D728D046CC00CAD377 /* Info.plist */,
 			);
 			path = UnitTestPractice;
+			sourceTree = "<group>";
+		};
+		BCF321DD28D0475000CAD377 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				BCF321DE28D0476700CAD377 /* StrangeCalculator.swift */,
+				BCF321E028D0477300CAD377 /* LottoMachine.swift */,
+			);
+			path = Sample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCF321DF28D0476700CAD377 /* StrangeCalculator.swift in Sources */,
 				BCF321CE28D046CB00CAD377 /* ViewController.swift in Sources */,
 				BCF321CA28D046CB00CAD377 /* AppDelegate.swift in Sources */,
+				BCF321E128D0477300CAD377 /* LottoMachine.swift in Sources */,
 				BCF321CC28D046CB00CAD377 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
