@@ -15,7 +15,26 @@
 		BCF321D628D046CC00CAD377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF321D428D046CC00CAD377 /* LaunchScreen.storyboard */; };
 		BCF321DF28D0476700CAD377 /* StrangeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF321DE28D0476700CAD377 /* StrangeCalculator.swift */; };
 		BCF321E128D0477300CAD377 /* LottoMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF321E028D0477300CAD377 /* LottoMachine.swift */; };
+		BCF321E928D047FB00CAD377 /* StangeCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF321E828D047FB00CAD377 /* StangeCalculatorTests.swift */; };
+		BCF321F628D050AB00CAD377 /* LottoMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF321F528D050AB00CAD377 /* LottoMachineTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCF321EA28D047FB00CAD377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCF321BE28D046CB00CAD377 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF321C528D046CB00CAD377;
+			remoteInfo = UnitTestPractice;
+		};
+		BCF321F728D050AB00CAD377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCF321BE28D046CB00CAD377 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF321C528D046CB00CAD377;
+			remoteInfo = UnitTestPractice;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		BCF321C628D046CB00CAD377 /* UnitTestPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTestPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -28,10 +47,28 @@
 		BCF321D728D046CC00CAD377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCF321DE28D0476700CAD377 /* StrangeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrangeCalculator.swift; sourceTree = "<group>"; };
 		BCF321E028D0477300CAD377 /* LottoMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoMachine.swift; sourceTree = "<group>"; };
+		BCF321E628D047FB00CAD377 /* StangeCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StangeCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF321E828D047FB00CAD377 /* StangeCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StangeCalculatorTests.swift; sourceTree = "<group>"; };
+		BCF321F328D050AB00CAD377 /* LottoMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LottoMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF321F528D050AB00CAD377 /* LottoMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoMachineTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BCF321C328D046CB00CAD377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF321E328D047FB00CAD377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF321F028D050AB00CAD377 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,6 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				BCF321C828D046CB00CAD377 /* UnitTestPractice */,
+				BCF321E728D047FB00CAD377 /* StangeCalculatorTests */,
+				BCF321F428D050AB00CAD377 /* LottoMachineTests */,
 				BCF321C728D046CB00CAD377 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				BCF321C628D046CB00CAD377 /* UnitTestPractice.app */,
+				BCF321E628D047FB00CAD377 /* StangeCalculatorTests.xctest */,
+				BCF321F328D050AB00CAD377 /* LottoMachineTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,6 +122,22 @@
 			path = Sample;
 			sourceTree = "<group>";
 		};
+		BCF321E728D047FB00CAD377 /* StangeCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCF321E828D047FB00CAD377 /* StangeCalculatorTests.swift */,
+			);
+			path = StangeCalculatorTests;
+			sourceTree = "<group>";
+		};
+		BCF321F428D050AB00CAD377 /* LottoMachineTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCF321F528D050AB00CAD377 /* LottoMachineTests.swift */,
+			);
+			path = LottoMachineTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -101,6 +158,42 @@
 			productReference = BCF321C628D046CB00CAD377 /* UnitTestPractice.app */;
 			productType = "com.apple.product-type.application";
 		};
+		BCF321E528D047FB00CAD377 /* StangeCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF321EC28D047FC00CAD377 /* Build configuration list for PBXNativeTarget "StangeCalculatorTests" */;
+			buildPhases = (
+				BCF321E228D047FB00CAD377 /* Sources */,
+				BCF321E328D047FB00CAD377 /* Frameworks */,
+				BCF321E428D047FB00CAD377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCF321EB28D047FB00CAD377 /* PBXTargetDependency */,
+			);
+			name = StangeCalculatorTests;
+			productName = StangeCalculatorTests;
+			productReference = BCF321E628D047FB00CAD377 /* StangeCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCF321F228D050AB00CAD377 /* LottoMachineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF321F928D050AB00CAD377 /* Build configuration list for PBXNativeTarget "LottoMachineTests" */;
+			buildPhases = (
+				BCF321EF28D050AB00CAD377 /* Sources */,
+				BCF321F028D050AB00CAD377 /* Frameworks */,
+				BCF321F128D050AB00CAD377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCF321F828D050AB00CAD377 /* PBXTargetDependency */,
+			);
+			name = LottoMachineTests;
+			productName = LottoMachineTests;
+			productReference = BCF321F328D050AB00CAD377 /* LottoMachineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -113,6 +206,14 @@
 				TargetAttributes = {
 					BCF321C528D046CB00CAD377 = {
 						CreatedOnToolsVersion = 13.4.1;
+					};
+					BCF321E528D047FB00CAD377 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BCF321C528D046CB00CAD377;
+					};
+					BCF321F228D050AB00CAD377 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BCF321C528D046CB00CAD377;
 					};
 				};
 			};
@@ -130,6 +231,8 @@
 			projectRoot = "";
 			targets = (
 				BCF321C528D046CB00CAD377 /* UnitTestPractice */,
+				BCF321E528D047FB00CAD377 /* StangeCalculatorTests */,
+				BCF321F228D050AB00CAD377 /* LottoMachineTests */,
 			);
 		};
 /* End PBXProject section */
@@ -142,6 +245,20 @@
 				BCF321D628D046CC00CAD377 /* LaunchScreen.storyboard in Resources */,
 				BCF321D328D046CC00CAD377 /* Assets.xcassets in Resources */,
 				BCF321D128D046CB00CAD377 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF321E428D047FB00CAD377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF321F128D050AB00CAD377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,7 +277,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BCF321E228D047FB00CAD377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF321E928D047FB00CAD377 /* StangeCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF321EF28D050AB00CAD377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF321F628D050AB00CAD377 /* LottoMachineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCF321EB28D047FB00CAD377 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCF321C528D046CB00CAD377 /* UnitTestPractice */;
+			targetProxy = BCF321EA28D047FB00CAD377 /* PBXContainerItemProxy */;
+		};
+		BCF321F828D050AB00CAD377 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCF321C528D046CB00CAD377 /* UnitTestPractice */;
+			targetProxy = BCF321F728D050AB00CAD377 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BCF321CF28D046CB00CAD377 /* Main.storyboard */ = {
@@ -352,6 +498,78 @@
 			};
 			name = Release;
 		};
+		BCF321ED28D047FC00CAD377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F92UQYH2RA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ungchun.StangeCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnitTestPractice.app/UnitTestPractice";
+			};
+			name = Debug;
+		};
+		BCF321EE28D047FC00CAD377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F92UQYH2RA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ungchun.StangeCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnitTestPractice.app/UnitTestPractice";
+			};
+			name = Release;
+		};
+		BCF321FA28D050AB00CAD377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F92UQYH2RA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ungchun.LottoMachineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnitTestPractice.app/UnitTestPractice";
+			};
+			name = Debug;
+		};
+		BCF321FB28D050AB00CAD377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F92UQYH2RA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ungchun.LottoMachineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnitTestPractice.app/UnitTestPractice";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -369,6 +587,24 @@
 			buildConfigurations = (
 				BCF321DB28D046CC00CAD377 /* Debug */,
 				BCF321DC28D046CC00CAD377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF321EC28D047FC00CAD377 /* Build configuration list for PBXNativeTarget "StangeCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF321ED28D047FC00CAD377 /* Debug */,
+				BCF321EE28D047FC00CAD377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF321F928D050AB00CAD377 /* Build configuration list for PBXNativeTarget "LottoMachineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF321FA28D050AB00CAD377 /* Debug */,
+				BCF321FB28D050AB00CAD377 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
