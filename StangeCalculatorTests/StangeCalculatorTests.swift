@@ -22,10 +22,8 @@ class StangeCalculatorTests: XCTestCase {
         sut = nil
     }
     
-    func testExample() throws {
-        
-    }
-    
+    // 성능 측정 테스트
+    //
     func testPerformanceExample() throws {
         measure {
             // Put the code you want to measure the time of here.
